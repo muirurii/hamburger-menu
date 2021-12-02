@@ -7,15 +7,9 @@
     box-sizing: border-box;
 }
 
-main {
-    background-image: url(pexels-photo-6438289.jpeg);
-    background-size: 100% 100%;
-    height: 90vh;
-    width: 90vw;
-    margin: 15vh 5vw 0 5vw;
-    border-radius: 10px;
-    color: #000000;
-    /* background-color: red; */
+body {
+    font-family: 'Raleway';
+    overflow-x: hidden;
 }
 
 header {
@@ -24,20 +18,19 @@ header {
     top: 0;
     width: 100%;
     height: 15vh;
-    font-family: 'Raleway';
 }
 
 header h1 {
     font-family: 'Dancing Script';
-    color: #fff;
-    padding: .2em 0 0em 2em;
+    color: rgb(255, 217, 0);
+    padding: .2em 0 0em 10%;
     font-size: 3em;
 }
 
 nav {
     position: absolute;
     right: 5%;
-    top: 10%;
+    top: 4vh;
 }
 
 nav ul {
@@ -59,7 +52,7 @@ nav ul li::after {
     height: 3px;
     background-color: #fff;
     transform: scale(0);
-    transition: transform 400ms 100ms linear;
+    transition: transform 300ms 100ms linear;
 }
 
 nav ul li:hover::after {
@@ -165,6 +158,25 @@ nav ul a {
 
 .hamb.closed::before {
     transform: rotate(-45deg);
+}
+
+main {
+    background-image: url(https://images.pexels.com/photos/2020314/pexels-photo-2020314.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    background-size: 100% 100%;
+    height: 100vh;
+    width: 100vw;
+    margin-top: 15vh;
+}
+
+main p {
+    padding: 2em;
+    font-size: 3em;
+    width: 100%;
+    height: 100%;
+    color: white;
+    background: linear-gradient(to bottom, transparent, #0147449d, #0147449d, #fff);
+    line-height: 2;
+    font-weight: bolder;
 }
 
 @media (max-width:700px) {
