@@ -99,6 +99,7 @@ nav ul a {
 .menu ul li:hover {
     background-color: rgb(238, 248, 248);
     border-color: #0457d3;
+    padding-left: 0.6em;
 }
 
 .menu ul a {
