@@ -113,7 +113,7 @@ nav ul a {
     cursor: pointer;
     height: 4px;
     width: 26px;
-    background-color: black;
+    background-color: #fff;
     position: absolute;
     top: calc(15vh + 8px);
     right: 10px;
